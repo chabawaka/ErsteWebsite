@@ -10,7 +10,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   background: #DCDCDC;
   color: white;
 }
@@ -22,6 +22,75 @@ background: white;
 width: 600px;
 height: 445px;
 margin-left: 160px;
+}
+
+.workone{
+display: block;
+background: white;
+width: 900px;
+height: 445px;
+margin-left: 160px;
+}
+ .workonepic{
+   width: 290px;
+   margin-left: 5px;
+   float: left;
+   padding: 0px;
+   margin-top: 5px;
+}
+.worktwopic{
+  width: 290px;
+  margin-left: 5px;
+  float: left;
+  padding: 0px;
+  margin-top: 5px;
+}
+.workthreepic{
+  width: 290px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  padding: 0px;
+  margin-top: 5px;
+}
+.worktwo{
+display: block;
+background: white;
+width: 900px;
+height: 1799px;
+margin-left: 160px;
+}
+.workfourpic{
+  width: 890px;
+  margin-left: 5px;
+  float: left;
+  padding: 0px;
+  margin-top: 5px;
+}
+.workfivepic{
+ width: 890px;
+ margin-left: 5px;
+ float: left;
+ padding: 0px;
+ margin-top: 5px;
+}
+.worksixpic{
+ width: 890px;
+ margin-left: 5px;
+ margin-right: 5px;
+ float: left;
+ padding: 0px;
+ margin-top: 5px;
+}
+
+.worklogo{
+  display: inline-block;
+  z-index: 1;
+  position: absolute;
+  background-color: red;
+  width: 78px;
+  height: 23px;
+  margin-left: 0px;
 }
 .anchorlinks{
   display: inline-block;
@@ -57,6 +126,16 @@ margin-top: 5px;
 margin-right: 5px;
 margin-left: 5px;
 margin-bottom: 0px;
+}
+
+.workdescription{
+  margin-left: 160px;
+  background-color: white;
+  width: 250px;
+}
+.workdescriptiontext{
+color: black;
+padding: 5px;
 
 }
 .header{
@@ -90,38 +169,35 @@ p{
   color: white;
 }
 
+.links{
+    color: red;
+    text-decoration: none;
+}
 
-
+.worklogo{
+  display: inline-block;
+  z-index: 1;
+  position: absolute;
+  background-color: red;
+  width: 78px;
+  height: 23px;
+  margin-left: 0px;
+}
 .sociallinks {
-  padding-left: 25px;
+  margin-left: 160px;
+  background-color: white;
+  width: 250px;
+}
+.linkstext{
+  padding: 5px;
 }
 
-
-/*.media {
-  display: block;
-  text-align: center;
+.platzhalter23{
+  height: 23px;
 }
 
-
-.facebook {
-  display: inline-block;
-  width: 110px;
-  height: 35px;
-  margin-top: 15px;
-  background-color: #3b5998;
+.copyright{
+  color: black;
+  font-size: 14px;
+  padding-left: 160px;
 }
-
-.youtube {
-  display: inline-block;
-  width: 110px;
-  height: 35px;
-  margin-top: 15px;
-  background-color: #c4302b;
-}
-.twitter {
-  display: inline-block;
-  width: 110px;
-  height: 35px;
-  margin-top: 15px;
-  background-color: #00acee;
-}*/
