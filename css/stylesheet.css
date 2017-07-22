@@ -7,52 +7,102 @@ body {
 }
 .container{
   width: auto;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #DCDCDC;
   color: white;
+}
+
+
+.profil{
+display: block;
+background: white;
+width: 600px;
+height: 445px;
+margin-left: 160px;
+}
+.anchorlinks{
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+  color: red;
+}
+
+.aboutmelogo{
+  display: inline-block;
+  z-index: 1;
+  position: absolute;
+  background-color: red;
+  width: 144px;
+  height: 23px;
+  margin-left: 300px;
+}
+
+img{
+  width: 290px;
+  margin-left: 300px;
+  margin-right: 5px;
+  float: right;
+  padding: 0px;
+}
+
+.aboutme{
+color: black;
+width: 290px;
+height: 0px;
+float: left;
+margin-top: 5px;
+margin-right: 5px;
+margin-left: 5px;
+margin-bottom: 0px;
+
 }
 .header{
   text-align: right;
   color: white;
-  margin-right: 25px;
+  margin-bottom: 0px;
 }
-.subheader{
-  text-align: left;
-  margin-left: 25px;
-  color: white;
-}
-h4{
+
+.headercategory{
   text-align: right;
-  color: white;
-  margin-right: 25px;
+color: white;
+margin-top: 0px;
+margin-left: 0px;
 }
+
+.hielscherlogo {
+  width: 160px;
+  height: 23px;
+  margin-top: 15px;
+  background-color: red;
+}
+.hielscherlogo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 p{
   padding-left: 25px
   color: white;
 }
-img {
-display:block;
-margin-left: auto;
-margin-right: auto;
- width: 50%;
+
+
+
+.sociallinks {
+  padding-left: 25px;
 }
 
-hr {
-  border: 0;
-  height: 3px;
-  background-image: -webkit-linear-gradient(left, #FFFFFF, #BDBDBD, #FFFFFF);
-  background-image: -moz-linear-gradient(left, #FFFFFF, #BDBDBD, #FFFFFF);
-  background-image: -ms-linear-gradient(left, #FFFFFF, #BDBDBD, #FFFFFF);
-  background-image: -o-linear-gradient(left, #FFFFFF, #BDBDBD, #FFFFFF);
-}
 
-.media {
+/*.media {
   display: block;
   text-align: center;
 }
+
+
 .facebook {
   display: inline-block;
   width: 110px;
@@ -60,6 +110,7 @@ hr {
   margin-top: 15px;
   background-color: #3b5998;
 }
+
 .youtube {
   display: inline-block;
   width: 110px;
@@ -73,7 +124,4 @@ hr {
   height: 35px;
   margin-top: 15px;
   background-color: #00acee;
-}
-span {
-	color: red;
-}
+}*/
