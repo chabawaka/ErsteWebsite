@@ -60,6 +60,15 @@ width: 900px;
 height: 1799px;
 margin-left: 160px;
 }
+
+.workthree{
+display: block;
+background: white;
+width: 900px;
+height: 597px;
+margin-left: 160px;
+}
+
 .workfourpic{
   width: 890px;
   margin-left: 5px;
@@ -83,6 +92,20 @@ margin-left: 160px;
  margin-top: 5px;
 }
 
+.worksevenpic{
+  width: 440px;
+  margin-left: 5px;
+  float: left;
+  padding: 0px;
+  margin-top: 5px;
+}
+.workeightpic{
+  width: 440px;
+  margin-left: 5px;
+  float: left;
+  padding: 0px;
+  margin-top: 5px;
+}
 .worklogo{
   display: inline-block;
   z-index: 1;
@@ -131,7 +154,7 @@ margin-bottom: 0px;
 .workdescription{
   margin-left: 160px;
   background-color: white;
-  width: 250px;
+  width: 263px;
 }
 .workdescriptiontext{
 color: black;
@@ -183,19 +206,39 @@ p{
   height: 23px;
   margin-left: 0px;
 }
+
+.contactlogo{
+  display: block;
+  z-index: 2;
+  position: absolute;
+  background-color: red;
+  width: 111px;
+  height: 23px;
+  margin-left: 197px;
+}
 .sociallinks {
   margin-left: 160px;
   background-color: white;
-  width: 250px;
+  width: 189px;
+  height: 95px;
 }
 .linkstext{
   padding: 5px;
+  color: black;
+  width: 197px;
+  height: 116px;
+  background-color: white;
 }
 
 .platzhalter23{
   height: 23px;
 }
-
+.platzhalter6{
+  height: 6px;
+}
+.black{
+  color: black;
+}
 .copyright{
   color: black;
   font-size: 14px;
