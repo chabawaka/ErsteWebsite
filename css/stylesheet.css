@@ -11,7 +11,7 @@ body {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 15px;
-  background: #F0F0F0;
+  background: #BEBEBE;
   color: white;
 }
 
@@ -151,10 +151,20 @@ margin-left: 5px;
 margin-bottom: 0px;
 }
 
-.workdescription{
+.workdescriptionone{
   margin-left: 160px;
   background-color: white;
-  width: 263px;
+  width: 185px;
+}
+.workdescriptiontwo{
+  margin-left: 160px;
+  background-color: white;
+  width: 158px;
+}
+.workdescriptionthree{
+  margin-left: 160px;
+  background-color: white;
+  width: 250px;
 }
 .workdescriptiontext{
 color: black;
@@ -196,6 +206,10 @@ p{
     color: red;
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+  }
 
 .worklogo{
   display: inline-block;
